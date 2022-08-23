@@ -1,0 +1,20 @@
+.div1 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+.div2 {
+background-color: aqua;
+width: 200px;
+height: 150px;
+}
+.div2 p {
+    font-size: ;
+    text-align: justify;
+    text-align-last: right;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,19 @@
+h1{
+    color: antiquewhite;
+}
+.main h1 {
+    color: red;
+}
+.main > p {
+    color: blue;
+
+} 
+div + p {
+    color: brown;
+}
+#childdiv {
+    background-color: aqua;
+}
+.childdivclass {
+background-color: azure;
+}
