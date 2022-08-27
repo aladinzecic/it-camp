@@ -1,0 +1,30 @@
+body{
+    font-family: 'DynaPuff', cursive;
+}
+.main{
+    margin: 20px auto;
+    height: 500px;
+    width: 400px;
+    background-color: aqua;
+    padding: 15px;
+}
+.main h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main p{
+    text-indent: 5px;
+    text-align: justify;
+    text-align-last: 5px;
+}
+.text{
+    margin-left: 10px;
+}
+#icon{
+    font-size: 18px;
+    color: black;
+}
+#icon:nth-last-of-type(2){
+    color:red;
+    background-color: aquamarine;
+}
