@@ -1,0 +1,58 @@
+.main{
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    margin: 30px auto;
+    border: 1px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: 'Abel', sans-serif;
+}
+.main img{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.main h3{
+    margin-left: 15px;
+}
+#bed{
+    font-size: 20px;
+    margin-left:15px ;
+
+}
+.bed1{
+    margin-left: 10px;
+}
+#bath{
+    font-size: 20px;
+    margin-left:15px ;
+}
+.bath1{
+    margin-left:10px ;
+}
+#sqm{
+    font-size: 20px;
+    margin-left:15px ;  
+}
+.sqm1{
+    margin-left:10px ;
+}
+#pool{
+    font-size: 20px;
+    margin-left:15px ; 
+}
+.pool1{
+    margin-left:10px ;
+}
+.main p{
+    margin-left: 15px;
+}
+#phone{
+    font-size: 20px;
+    margin-left:15px 
+}
+.phone1{
+    margin-left: 10px;
+}
