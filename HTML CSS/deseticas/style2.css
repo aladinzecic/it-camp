@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkkhaki;
+    display: inline-block;
+}
+img{
+    height: 80%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
