@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DynaPuff', cursive;
+    font-size: 0.5cm;
+    font-size: 16px;
+}
+.main{
+    margin: auto;
+    width: 90vw;
+    height: 60vh;
+    background-color: blueviolet;
+    font-size: 1.2em;
+}
+.child{
+    background-color: brown;
+    font-size: 1.5rem;
+}
+/* Apsolutne velicine */
+/* cm- centimetri */
+/* mm-milimetri */
+/* in-inch */
+/* px -pixeli*/
+/* pt-points */
+/* pc-picas */
+
+/* Relativne velicine */
+/* em-relativan u odnosu na font size od parent elementa */
+/* rem-relativan u odnosu na font size od body-ne nasledjuje elicinu od roditelja */
+/* vw-vidth view-relativan u odnosu na sirinu ekrana*/
+/* vh -height view-relativan u odnosu na visinu ekrana*/
+/* vmin-relativan u odnosu na manji deo(visina ili sirina) */
+/* vmax-relativan u odnosu na veci deo(visina ili sirina) */
+/* %-procenat je relativan u odnosu na parent element */
