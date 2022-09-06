@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+img{
+    width: 50vw;
+    height: 400px;
+    float: left;
+    margin-right: 1rem;
+}
+.first{
+    width: 40%;
+    height: 55vh;
+    background-color: rgba(48, 119, 119,0.5);
+    clear: both;
+    float: left;
+}
+.second{
+    width: 40%;
+    height: 75vh;
+    background-color: rgb(96, 65, 145);
+    /* clear: both; */
+    float: right;
+}
