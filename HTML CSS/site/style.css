@@ -5,18 +5,25 @@
 
 header{
     background-color: rgb(2, 1, 1);
-    width: 100vw;
-    height: 60px;
+    width: 100;
+    height: 10vh;
     position: relative;
+}
+header h2{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 23px;
 }
 .logo{
     height: 45px;
-    margin-top: 5px;
-    margin-left: 30px;
+    margin-top: 12px;
+    margin-left: 50px;
 }
 .menu{
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 40px;
 }
 
@@ -33,4 +40,209 @@ header{
     font-size: 16px;
     text-decoration: none;
     padding-right: 40px;
+}
+.hero{
+    position: relative;
+}
+.hero .photo1{
+    height: 90vh;
+    width: 100%;
+    background-size: contain;
+    opacity: 0.;
+}
+.hero h1{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 40px;
+}
+.hero p{
+    position: absolute;
+    top: 300px;
+    color: white;
+    left: 150px;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 380px;
+    left: 275px;
+    border: 1px solid white;
+    padding: 8px;
+}
+.hero a:hover{
+    opacity: 0.9;
+    background-color: rgb(19, 18, 16);
+    transition: 0.3s;
+}
+.ourservices{
+    width:100% ;
+    height: 60vw;
+}
+.ourservices p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ourservices h2{
+    color: rgb(8, 5, 20);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ourservices .content .first{
+    background-color: #1b1f20;
+    width: 225px;
+    height: 350px;
+    box-shadow: rgba(145, 20, 134, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: relative;
+
+}
+.ourservices .content .first img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 35px;
+    
+}
+.ourservices  .content .first:hover{
+    cursor: pointer;
+    background: rgb(244,0,251);
+    background: linear-gradient(to top right, rgba(244,0,251,1) 0%, rgba(6,6,64,1) 100%);
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    transition: 0.4s;
+}
+.ourservices .content .first h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px
+
+}
+.ourservices .content .first p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.ourservices .content .first a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+    
+}
+
+
+.ourservices  .content .second{
+    background-color: #1b1f20;
+    width: 225px;
+    height: 350px;
+    position: relative;
+}
+.ourservices .content .second img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.ourservices  .content .second:hover{
+    cursor: pointer;
+    background: rgb(244,0,251);
+    background: linear-gradient(to top right, rgba(244,0,251,1) 0%, rgba(6,6,64,1) 100%);
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    transition: 0.4s;
+}
+.ourservices .content .second h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px
+
+}
+.ourservices .content .second p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.ourservices .content .second a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+    
+}
+.ourservices  .content .third{
+    background-color: #1b1f20;
+    width: 225px;
+    height: 350px;
+    position: relative;
+
+}
+.ourservices  .content .third:hover{
+    cursor: pointer;
+    background: rgb(244,0,251);
+    background: linear-gradient(to top right, rgba(244,0,251,1) 0%, rgba(6,6,64,1) 100%);
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    transition: 0.4s;
+}
+.ourservices .content .third img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.ourservices .content .third h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px
+
+}
+.ourservices .content .third p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.ourservices .content .third a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+    
+}
+.purple{
+    margin-top: -500px;
 }
