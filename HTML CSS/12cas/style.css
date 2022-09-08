@@ -1,0 +1,19 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+}
+.first{
+    width: 50%;
+    height: 50vh;
+    /* background-color: rgba(29, 2, 2,0.5); opacity dodat samo na background*/
+    /* opacity: 0.5; opacity dodat na sve*/
+}
+.first{
+    width: 50%;
+    height: 50vh;
+    background-image: url(https://th.bing.com/th/id/OIP.fyLCTNN9RiZ3sgwG57oixQHaE2?pid=ImgDet&rs=1);
+    /* background-color: rgb(15, 6, 32); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
