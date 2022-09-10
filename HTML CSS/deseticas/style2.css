@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Abel', sans-serif;
+}
 
 header{
     width: 100vw;
@@ -23,7 +26,6 @@ img{
     padding-right: 0.7rem;
     text-transform: uppercase;
     margin-left: 3rem;
-
 }
 .links a:hover{
     cursor: pointer;
@@ -40,4 +42,69 @@ img{
     padding: 0.5rem;
     color: rgb(60, 48, 129);
     border-radius: 10px;
+}
+
+
+
+
+.facebook{
+    width: 30vw;
+    height: 80vw;
+    float: left;
+    margin: 130px;
+    margin-left: 300px;
+}
+
+.facebook h1{
+    font-weight: bold;
+    color: rgb(4, 4, 206);
+    font-size: 80px;
+}
+.facebook p{
+    font-size: 24px;
+
+}
+.right{
+    background-color:gray ;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 100px;
+}
+#username{
+    padding: 15px;
+    width: 80%;
+    margin: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#pass{
+    padding: 15px;
+    width: 80%;
+    margin: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+button{
+cursor: pointer;
+margin-top: 10px;
+margin-left: 30px;
+width: 80%;
+height: 40px;
+background-color: blue;
+}
+button:hover{
+    background-color: rgb(29, 29, 218);
+    transition: 0.3s;
+}
+.right a{
+    text-align: center;
+    margin-left:150px ;
+    margin-top: 10px;
+    text-decoration: none;
 }
