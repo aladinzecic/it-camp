@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+.main{
+    margin:2rem auto;
+    width: 95%;
+    background: rgb(204, 47, 47);
+    height: 200vh;
+    position: relative;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+background-color: rgb(181, 184, 13);
+/* position: static; defaultna vrednost*/
+position: relative;
+top: 70px;
+left: 50%;
+/* relative-originalna pozicija ostaje rezervisana(tu se nece odmah naci sledeci element);omogucava nam da pomeramo element sa svih strana u odnosu na trenutno postavljeni  element*/
+
+}
+.box2{
+    width: 100px;
+    height: 100px;
+background-color: rgb(2, 5, 12);
+/* absolute ne cuva prostor na kom se nalazio tu se ce automatski naci sledeci element ispod onog na kom je position absolute.mozemo da pomeramo element u odnosu na parent element a parent element mora imati position razl od statoc da bi se pomeralo relativno od njega */
+position: absolute;
+color: aliceblue;
+bottom: 0px;
+left: 0;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+background-color: rgb(187, 51, 92);
+/* kod fixed ne cuva prostor gde se nalazio kao kod relative
+mozemo da pomeramo u odnosu na celu stranicu parent element nema nikakav uticaj */
+position: fixed;
+top: 0;
+left: 0;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+background-color: rgb(49, 153, 49);
+position: sticky;
+/* relative-originalna pozicija ostaje rezervisana(tu se nece odmah naci sledeci element);
+mozemo pomerati element u odnosu na trenutno postavljeni element */
+left: 100;
+top: 20px;
+z-index: 20;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+background-color: rgb(69, 67, 170);
+/* z-index: 10; ne mozemo primenjivati na static*/
+position: relative;
+}
