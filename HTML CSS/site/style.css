@@ -247,3 +247,7 @@ header h2{
     margin-top: -500px;
     height: 300px;
 }
+.newsection{
+    width: 100px;
+    height: 100vh;
+}
