@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+
+.main{
+    width: 75%;
+    height: 500px;
+    background-color: rgb(150, 196, 23);
+    margin: auto;
+    display: flex;
+    /* horizontalno poravnanje */
+    justify-content: space-between;
+    /* ima start center i end space beetwen i space around */
+    /* vertikalno poravnanje */
+    align-items: center;
+    /* ima start center i end */
+}
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    align-self: start;
+}
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(21, 65, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(141, 58, 173);
+    align-self: end;
+}
+.links{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+
+}
+.links  li{
+    
+}
+
+.links  li a{
+    text-decoration: none;
+}
+
