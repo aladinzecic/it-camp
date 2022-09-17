@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: blue;
+    height: 12vh;
+    display: flex;
+}
+.navbar .header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .header h1{
+    color: white;
+    align-items: center;
+    justify-content: left;
+}
+.navbar .header .right{
+    justify-content: right;
+    align-items: center;    
+}
+.navbar .header .right ul{
+    list-style: none;
+    display: flex;
+}
+.navbar .header .right ul li a{
+color: white;
+text-decoration: none;
+margin-right: 15px;
+}
+.navbar .header .right button{
+    color: blue;
+    background-color: white;
+    border-radius: 30px;
+}
+.main{
+    height: 95vh;
+    background-color: white;
+width: 80%;
+
+}
+.main .left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 60%;
+}
+.main .left .box1{
+    background-color: rgb(209, 202, 202);
+    width: 40%;
+    height: 200px;
+    margin-left: 25px;
+}
+.main .left .box2{
+    background-color: rgb(209, 202, 202);
+    width: 40%;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+.main .left .box3{
+    background-color: rgb(209, 202, 202);
+    width: 40%;
+    height: 200px;
+    margin-left: 25px;
+}
+.main .left .box4{
+    background-color: rgb(209, 202, 202);
+    width: 40%;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+}

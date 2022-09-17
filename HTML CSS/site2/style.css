@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.min{
+    background: url(https://assets.xboxservices.com/assets/44/68/4468de77-35e3-4c54-b163-7b0bbfb4b6ee.jpg?n=320089_Page-Hero-1084_1920x720.jpg);
+    background-size: cover;
+    width: 100%;
+}

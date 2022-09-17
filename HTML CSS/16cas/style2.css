@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    width: 75%;
+    height: 550px;
+    background-color: brown;
+    display: flex;
+    /* flex-direction: row; defultna vrednost */
+    flex-direction: column;
+    /* posto smo promenili pravac sad horizontalno poravnanje postaje align items
+    a vertikalno poravnanje justify content */
+    align-items: left;
+    justify-content: center;
+}
+.box1{
+    height: 150px;
+    background-color: aqua;
+    width: 250px;
+    /* flex-grow: 1; */
+    /* flex grow svojstvo zauzima celokupnu sirinu parent kontejnera */
+    /* definisanje sirine nekog child elementa bi zapravo predstavljalo minimalnu sirinu tog elementa */
+    /* flex-shrink: 1; */
+    align-self: flex-start;
+}
+.box2{
+    height: 150px;
+    background-color: rgb(55, 201, 62);
+    width: 250px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    align-self: center;
+
+}
+.box3{
+    height: 150px;
+    background-color: rgb(182, 31, 76);
+    width: 250px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    align-self: flex-end;
+}
