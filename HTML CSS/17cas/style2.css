@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: auto;
+}
+.child{
+    width: 150px;
+    background-color: black;
+    height: 150px;
+    transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    /* transition-property: transform; */
+    /* transition-duration: 2s; */
+    /* transition-timing-function: ease; */
+    /* transition-delay: 1s; */
+}
+.parent:hover .child{
+    transform: translate(250px,250px);
+    background-color: aqua;
+}

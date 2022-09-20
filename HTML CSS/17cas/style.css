@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: auto;
+}
+.child{
+    width: 150px;
+    background-color: black;
+    height: 150px;
+}
+/* hoveramo parent a vrsi se na child */
+.parent:hover .child{
+    transform: translate(250px,250px);
+;
+}

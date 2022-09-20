@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: auto;
+}
+.child{
+    width: 150px;
+    background-color: black;
+    height: 150px;
+}
+
+.parent:hover .child{
+    animation: top-to-botom 1s ease-in-out forwards 1 alternate;
+    /* animation-name: op-to-botom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-direction: alternate; */
+}
+@keyframes top-to-botom{
+    0%{
+        transform: translateY(0);
+    }
+    33%{
+        transform: translateX(250px);
+    }
+    66%{
+        transform: translate(250px,250px);
+    }
+    100%{
+        transform: translateY(250px);
+    }
+}
