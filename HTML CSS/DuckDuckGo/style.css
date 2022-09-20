@@ -87,6 +87,7 @@ body{
     width: 100%;
     display: flex;
     
+    
 }
 
 .content .card1{
@@ -97,6 +98,8 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 30px;
     margin-left: 150px;
+    z-index: 20;
+    position: relative;
     
 }
 .content .card1 img{
@@ -131,6 +134,8 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 30px;
     margin-left: 25px;
+    z-index: 20;
+    position: relative;
 }
 .content .card2 img{
     width: 102px;
@@ -164,6 +169,8 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 30px;
     margin-left: 25px;
+    z-index: 20;
+    position: relative;
 }
 .content .card3 img{
     width: 102px;
@@ -189,7 +196,52 @@ body{
     color: rgb(60, 60, 192);
     font-weight: 500;
 }
-#wave{
-    color: red;
+.red {
+    position: relative;
+    z-index: 10;
+    margin-top: -260px;
+}
+.info{
+    background-color: rgb(224, 118, 86);
     width: 100%;
+    height: 107.5vh;
+    
+}
+.info .text{
+    width: 100%;
+    padding-top: 110px;
+}
+.info .text h1{
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    line-height: 50px;
+    
+}
+.info .text p{
+    text-align: center;
+    color: white;
+    font-size:20px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+.info .text button{
+    display: block;
+    margin: auto;
+    background-color: #613725;
+    height: 40px;
+    border: 0px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.info .drgn img{
+    width: 890px;
+    height: 340px;
+    display: block;
+    margin: auto;
 }
