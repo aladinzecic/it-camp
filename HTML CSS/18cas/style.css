@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    height: 65vh;
+    background-color: rgb(115, 52, 175);
+}
+/* .main >h1{
+    color: white;
+}
+.main +p{
+    color: forestgreen;
+} */
+.main h1{
+    color: red;
+}
+/* tipovi koji su podrzani u media queriu su: */
+/* all- odnosi se na sve tipove i to cemo uvek koristiti */
+/* screen- se odnosi samo na prikaz na ekranima */
+/* print- se odnosi na stilove prilikom stampanja stranice */
+/* speech- se odnosi na stranice koje reporodukuju neki zvuk */
+/* moze samo media */
+/* or je , i oznacava da mora da bude zadovoljava jedan od uslova */
+/* @media(orientation:landscape) */
+/* @media(orientation:portrait) */
+@media(min-width:501px) and (max-width:678px){
+    body{
+        font-size: 0.9rem;
+    }
+    .main{
+        width: 100%;
+    }
+    .main h1{
+        text-align: center;
+    }
+}
+
+
+@media all and (max-width:500px){
+    body{
+        font-size: 0.8rem;
+        
+    }
+    .main h1{
+        color: green;
+    }
+    .main{
+        width: 100%;
+        padding: 1rem;
+    }
+}

@@ -194,7 +194,7 @@
 .footer:hover  .circle2{
     animation: right-to-left 3s linear ;
     animation-fill-mode: forwards;
-    
+    animation-direction: alternate;
 }
 @keyframes right-to-left{
     0%{
@@ -219,3 +219,29 @@
     }
 }
 
+@media(max-width:1200px){
+    .main .icons .box1 h3{
+        padding-top: 0px;
+    }
+    #prva{
+        margin-top: 20px;
+    }
+    .main .icons .box2 h3{
+        padding-top: 0px;
+    }
+    #druga{
+        margin-top: 20px;
+    }
+    .main .icons .box3 h3{
+        padding-top: 0px;
+    }
+    #treca{
+        margin-top: 20px;
+    }
+    .main .icons .box4 h3{
+        padding-top: 0px;
+    }
+    #cetvrta{
+        margin-top: 20px;
+    }
+}
