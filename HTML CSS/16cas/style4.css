@@ -62,8 +62,9 @@
     margin-top: 40px;
 }
 #prva{
-    padding-left: 110px;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 .main .icons .box1 h3{
     text-align: center;
@@ -81,8 +82,9 @@
     margin-top: 70px;
 }
 #druga{
-    padding-left: 110px;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 .main .icons .box2 h3{
     text-align: center;
@@ -100,8 +102,9 @@
     margin-top: -75px;
 }
 #treca{
-    padding-left: 110px;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 .main .icons .box3 h3{
     text-align: center;
@@ -119,8 +122,9 @@
     margin-top: -45px;
 }
 #cetvrta{
-    padding-left: 110px;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 .main .icons .box4 h3{
     text-align: center;
