@@ -135,8 +135,10 @@
     padding-top: 15px;
 }
 .main .photo{
-    margin-top: 50px;
-    margin-right: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
 }
 .main .photo img{
     width: 100%;
@@ -146,7 +148,7 @@
     height: 20vh;
     background-color: rgb(26, 22, 22);
 }
-.footer .top{
+/* .footer .top{
     width: 100%;
     height: 10vh;
 }
@@ -224,34 +226,92 @@
         transform: translateX(-1280px);
         background-color: rgb(245, 222, 222);
     }
-}
+} */
 
-@media(max-width:1100px){
+@media(max-width:2560px) and (min-width:2000px) {
+    .nav .bar .left h1{
+        font-size: 4rem;
+    }
+    
+    .nav .bar .right ul li a{
+        font-size: 3rem;
+    }
+    .nav .bar .right button{
+        font-size: 2rem;
+        border-radius: 20px;
+    }
+    .main .icons .box1{
+        margin-top: 125px;
+    }
     .main .icons .box1 h3{
-        padding-top: 0px;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    .main .icons .box1 p{
+        padding-top: 1rem;
+        font-size: 2rem;
     }
     #prva{
-        margin-top: 20px;
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .main .icons .box2{
+        margin-top: 175px;
+        margin-left: 25px;
     }
     .main .icons .box2 h3{
-        padding-top: 0px;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    .main .icons .box2 p{
+        padding-top: 1rem;
+        font-size: 2rem;
     }
     #druga{
-        margin-top: 20px;
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .main .icons .box3{
+        margin-bottom: 350px;
     }
     .main .icons .box3 h3{
-        padding-top: 0px;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    .main .icons .box3 p{
+        padding-top: 1rem;
+        font-size: 2rem;
     }
     #treca{
-        margin-top: 20px;
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .main .icons .box4{
+        margin-left: 25px;
+        margin-top: -25px;
     }
     .main .icons .box4 h3{
-        padding-top: 0px;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    .main .icons .box4 p{
+        padding-top: 1rem;
+        font-size: 2rem;
     }
     #cetvrta{
-        margin-top: 20px;
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .main .photo{
+        height: 1280px;
+        padding-right: 80px;
     }
     .main .photo img{
-        width: 90%;
+        height: 80%;
+        
     }
 }
+@media(max-width:2000px) and (min-width:2000px){
+
+}
+
