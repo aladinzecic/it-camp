@@ -238,7 +238,7 @@
         font-size: 3rem;
     }
     .nav .bar .right button{
-        font-size: 2rem;
+        font-size: 1.6rem;
         border-radius: 20px;
     }
     .main .icons .box1{
@@ -250,7 +250,7 @@
     }
     .main .icons .box1 p{
         padding-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     #prva{
         font-size: 3rem;
@@ -266,7 +266,7 @@
     }
     .main .icons .box2 p{
         padding-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     #druga{
         font-size: 3rem;
@@ -281,7 +281,7 @@
     }
     .main .icons .box3 p{
         padding-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     #treca{
         font-size: 3rem;
@@ -297,7 +297,7 @@
     }
     .main .icons .box4 p{
         padding-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     #cetvrta{
         font-size: 3rem;
@@ -328,18 +328,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 200%;
+        width: 425px;
         flex-direction: column;
+        margin-left: 0;
         
-        margin-left: -200px;
     }
     .main{
         flex-direction: column;
         width: 425px;
+        
     }
     .main .icons .box1{
-        
-        height: 200px;
+        width: 300px;
+        height: 250px;
+        margin-right: 0;
     }
     .main .icons .box1 h3{
         padding-top: 1rem;
@@ -347,15 +349,16 @@
     }
     .main .icons .box1 p{
         padding-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #prva{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding-top: 1rem;
     }
     .main .icons .box2{
-        
-        height: 200px;
+        width: 300px;
+        height: 250px;
+        margin-right: 0;
     }
     .main .icons .box2 h3{
         padding-top: 1rem;
@@ -363,15 +366,17 @@
     }
     .main .icons .box2 p{
         padding-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #druga{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding-top: 1rem;
     }
     .main .icons .box3{
         margin-top: 60px;
-        height: 200px;
+        width: 300px;
+        height: 250px;
+        margin-right: 0;
     }
     .main .icons .box3 h3{
         padding-top: 1rem;
@@ -379,15 +384,17 @@
     }
     .main .icons .box3 p{
         padding-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #treca{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding-top: 1rem;
     }
     .main .icons .box4{
         margin-top: 60px;
-        height: 200px;
+        width: 300px;
+        height: 250px;
+        margin-right: 0;
     }
     .main .icons .box4 h3{
         padding-top: 1rem;
@@ -395,10 +402,10 @@
     }
     .main .icons .box4 p{
         padding-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #cetvrta{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding-top: 1rem;
     }
     .main .photo{
@@ -410,7 +417,116 @@
         width: 90%;
     }
     .footer{
-        margin-top: 510px;
+        margin-top: 800px;
     }
+}
+@media(max-width:800px) and (min-width:600px){
+    .nav .bar .left h1{
+        font-size: 2.5rem;
+        margin-left: 10px;
+    }
+    .nav .bar .right ul li{
+        margin-left: -5px;
+    }
+    .nav .bar .right ul li a{
+        font-size: 1.6rem;
+        margin: 10px;
+    }
+    .main .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+        margin-left: 10px;
+        
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        
+    }
+    .main .icons .box1{
+        margin-top: 125px;
+        width: 300px;
+        height: 200px;
+    }
+    .main .icons .box1 h3{
+        padding-top: 0.7rem;
+        font-size: 1.8rem;
+    }
+    .main .icons .box1 p{
+        padding-top: 0.8rem;
+        font-size: 1.4rem;
+    }
+    #prva{
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+    .main .icons .box2{
+        margin-top: 125px;
+        width: 300px;
+        height: 200px;
+    }
+    .main .icons .box2 h3{
+        padding-top: 0.7rem;
+        font-size: 1.8rem;
+    }
+    .main .icons .box2 p{
+        padding-top: 0.8rem;
+        font-size: 1.4rem;
+    }
+    #druga{
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+    .main .icons .box3{
+        margin-top: 125px;
+        width: 300px;
+        height: 200px;
+    }
+    .main .icons .box3 h3{
+        padding-top: 0.7rem;
+        font-size: 1.8rem;
+    }
+    .main .icons .box3 p{
+        padding-top: 0.8rem;
+        font-size: 1.4rem;
+    }
+    #treca{
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+    .main .icons .box4{
+        margin-top: 125px;
+        width: 300px;
+        height: 200px;
+    }
+    .main .icons .box4 h3{
+        padding-top: 0.7rem;
+        font-size: 1.8rem;
+    }
+    .main .icons .box4 p{
+        padding-top: 0.8rem;
+        font-size: 1.4rem;
+    }
+    #cetvrta{
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+    .main .photo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .main .photo img{
+        
+        width: 70%;
+    }
+    .footer{
+        margin-top: 300px;
+    }
+    
 }
 
