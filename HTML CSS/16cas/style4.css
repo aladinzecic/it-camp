@@ -331,11 +331,11 @@
         width: 200%;
         flex-direction: column;
         
-        padding: auto;
+        margin-left: -200px;
     }
     .main{
         flex-direction: column;
-        
+        width: 425px;
     }
     .main .icons .box1{
         
@@ -400,6 +400,17 @@
     #cetvrta{
         font-size: 2rem;
         padding-top: 1rem;
+    }
+    .main .photo{
+        display: flex;
+        justify-content: center;
+    }
+    .main .photo img{
+        
+        width: 90%;
+    }
+    .footer{
+        margin-top: 510px;
     }
 }
 
