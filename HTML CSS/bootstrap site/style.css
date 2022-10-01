@@ -2,3 +2,325 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    
+    display: flex;
+    height: 10vh;
+}
+.right{
+    height: 10vh;
+}
+.left h1{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+.left img{
+    height: 8vh;
+    margin-top: 1vh;
+    padding-right: 20px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.right ul li{
+    margin-right: 15px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.3rem;
+    
+}
+.right button{
+    border: 1px solid blueviolet;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.right button:hover{
+    background-color: rgb(164, 107, 218);
+}
+.main{
+    background: url(https://thumbs.dreamstime.com/b/glowing-playstation-buttons-icon-neon-sign-brick-wall-abstract-background-spectrum-vibrant-colors-d-render-illustration-211649439.jpg);
+    height: 90vh;
+    background-size: cover;
+    
+    background-color: black;
+    width: 60vw;
+    position: absolute;
+    right: 0;
+    display: block;
+    
+}
+.content{
+    width: 40vw;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1{
+    font-weight: bold;
+    color: white;
+    padding-top: 150px;
+    
+}
+.content h3{
+    color: white;
+    align-self: center;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+}
+.content button{
+    border: 1px solid blueviolet;
+    width: 10vw;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(247, 0, 173) 0%, rgba(172,142,248,1) 100%);
+    height: 5vh;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: rgb(157, 101, 209);
+    
+}
+.dscmr{
+    height: 10vh;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    margin: 15vh;
+    height: 70vh;
+}
+.row{
+    justify-content: space-around;
+}
+.container .first{
+    width: 250px;
+    height: 350px;
+    background-color: #1b1f20;
+    box-shadow: rgba(145, 20, 134, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 10;
+}
+.first img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.first:hover{
+    cursor: pointer;
+    background: rgb(244,0,251);
+    background: linear-gradient(to top right, rgba(244,0,251,1) 0%, rgba(6,6,64,1) 100%);
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    transition: 0.4s;
+} 
+.first h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px
+
+}
+.first p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.container .first button{
+    border: 1px solid blueviolet;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.container .second{
+    width: 250px;
+    height: 350px;
+    background-color: #1b1f20;
+    box-shadow: rgba(145, 20, 134, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 10;
+}
+.second img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.second:hover{
+    cursor: pointer;
+    background: rgb(244,0,251);
+    background: linear-gradient(to top right, rgba(244,0,251,1) 0%, rgba(6,6,64,1) 100%);
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    transition: 0.4s;
+} 
+.second h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px
+
+}
+.second p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.container .second button{
+    border: 1px solid blueviolet;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.container .third{
+    width: 250px;
+    height: 350px;
+    background-color: #1b1f20;
+    box-shadow: rgba(145, 20, 134, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 10;
+}
+.third img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.third:hover{
+    cursor: pointer;
+    background: rgb(244,0,251);
+    background: linear-gradient(to top right, rgba(244,0,251,1) 0%, rgba(6,6,64,1) 100%);
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 89% 100%, 0 100%);
+    transition: 0.4s;
+} 
+.third h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px
+
+}
+.third p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.container .third button{
+    border: 1px solid blueviolet;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.purple{
+    margin-top: -475px;
+    z-index: 1;
+    height: 500px;
+    
+}
+.contact{
+    margin-top: -300px;
+    height: 80vh;
+    background-color: purple;
+    width: 100%;
+}
+.contact .container{
+    padding-top: 50px;
+}
+.contact .container .row{
+    width: 70%;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    
+}
+.contact .container .row .prva img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+}
+.contact .container .row .druga{
+    padding-left: 40px;
+}
+.contact .container .row .druga h3{
+    font-size: 18px;
+    margin-top: 50px 
+}
+#username{
+    border:1px solid blueviolet;
+    border-radius: 10px;
+    width: 235px;
+    margin-left: -4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#email{
+    border:1px solid blueviolet;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 235px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#note{
+    border:1px solid blueviolet;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.contact .container .row .druga button{
+    border:1px solid blueviolet;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 235px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.contact .container .row .druga button:hover{
+    background-color: rgb(154, 105, 201);
+}
