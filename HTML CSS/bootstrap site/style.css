@@ -271,7 +271,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(247, 0, 173) 0%, rgba(
     width: 70%;
     height: 400px;
     background-color: white;
-    margin: auto;
+    margin: auto;border-radius: 25px;
     
 }
 .contact .container .row .prva img{
