@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    height: 72.5px;
+    background-color: #37517e;
+    display: flex;
+}
+.navbar .logo h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+    margin-left: 78.5px;
+    padding: 12px;
+}
+.navbar .menu{
+    display: flex;
+    width: 86vw;
+    justify-content: end;
+}
+.navbar .menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 72.5px;
+    
+    margin-right: 78.5px;
+}
+.navbar .menu ul li{
+    display: flex;
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 30px;
+    color: #fff;
+}
+#home{
+    color: #47b2e4;
+}
+.navbar .menu ul li button{
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 2px solid #47b2e4;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar .menu ul li button:hover{
+    background-color:#47b2e4 ;
+    transition: 0.3s;
+    
+}
+.main{
+    background-color:#37517e ;
+}
+.main .left h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: jost;
+    padding-top: 75px;
+}
+.main .left h3{
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 24px;
+    font-family: jost;
+    line-height: 1.2;
+    line-break: 1.1;
+}
+.main .left button{
+    padding: 12px 28px;
+    background-color: #47b2e4;
+    letter-spacing: 1px;
+    border: 2px solid #47b2e4;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px
+    
+}
+.main .left button:hover{
+    
+    padding: 12px 28px;
+    background-color: #2b89b4;
+    letter-spacing: 1px;
+    border: 2px solid #2b89b4;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    transition: 0.3s;
+}
+#play{
+    position: absolute;
+    top: 310px;
+    left: 170px;
+    cursor: pointer;
+}
+#play:hover{
+    transition: 0.3s;
+    fill:#2b89b4 ;
+}
+.main .left span{
+    position: absolute;
+    top: 317px;
+    left: 205px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main .right{
+    margin-left: 20px;
+}
+.main .right img{
+    width: 546px;
+    height: 452px;
+    
+}
+body:hover img {
+    animation: top-bot 5s infinite ;
+}
+
+.product{
+    width: 85vw;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+@keyframes top-bot{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
