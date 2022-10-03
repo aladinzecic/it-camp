@@ -304,6 +304,13 @@ body:hover .right img {
     transition: 0.4s;
     color: #fff;
 }
+.hero{
+    background-color: #f3f5fa;
+    height: 100vh;
+}
+.hero .left{
+    width: 50%;
+}
 
 
 
