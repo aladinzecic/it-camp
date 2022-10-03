@@ -237,6 +237,7 @@ body:hover .right img {
 }
 .abt-txt {
     display: flex;
+    height: 40vh;
 }
 .abt-txt .left{
     width: 50%;
