@@ -690,13 +690,131 @@ padding-left: 100px;
     margin-right: 130px;
     
 }
+.action .blue .bot1 .right2 button:hover{
+    background-color: #00aaf8;
+    border-color: #00aaf8;
+    transition: 0.4s;
+}
 .portfolio{
     background-color: #fff;
     height: 100vh;
+    position: relative;
 }
 
-
-
+.portfolio .top h1{
+    padding-top: 10vh;
+    color: #37517e;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    text-align: center;
+}
+.portfolio .top p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.portfolio .buttons {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-left: 37.5%;
+    margin-top: 25px;
+}
+.portfolio .buttons button{
+    border: 0;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: jost;
+    font-weight: 600;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+}
+.portfolio .buttons button:hover{
+    background-color: #00aaf8;
+    border: 1px solid #00aaf8;
+}
+#frstbtn{
+    background-color: #00aaf8;
+    border: 1px solid #00aaf8;
+}
+.imgs{
+    margin-left: 8%;
+    margin-top: 5vh;
+    position: relative;
+    width: 84%;
+    height: 100vh;
+    
+    display: flex;
+}
+.imgs .img11 img{
+    width: 360px;
+    height: 370px;
+}
+.imgs .img12 img{
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    left: 386px;
+}
+.imgs .img13 img{
+    width: 360px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.imgs .img14 img{
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    top: 396px;
+    left: 0;
+}
+.imgs .img15 img{
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    left: 386px;
+    top: 286px;
+}
+.imgs .img16 img{
+    width: 360px;
+    height: 230px;
+    position: absolute;
+    top: 246px;
+    right: 0;
+}
+.imgs .img17 img{
+    width: 360px;
+    height: 230px;
+    position: absolute;
+    top: 502px;
+    right: 0;
+}
+.imgs .img18 img{
+    width: 360px;
+    height: 230px;
+    position: absolute;
+    left: 386px;
+    top: 812px;
+}
+.imgs .img19 img{
+    width: 360px;
+    height: 230px;
+    position: absolute;
+    top: 758px;
+    right: 0;
+}
 
 
 
