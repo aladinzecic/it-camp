@@ -756,64 +756,158 @@ padding-left: 100px;
     
     display: flex;
 }
-.imgs .img11 img{
+.imgs .img11{
+    overflow: hidden;
     width: 360px;
     height: 370px;
 }
+.imgs .img11 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.imgs .img11:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .imgs .img12 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.imgs .img12{
+    overflow: hidden;
     width: 360px;
     height: 260px;
     position: absolute;
     left: 386px;
 }
+.imgs .img12:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .imgs .img13 img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgs .img13{
     width: 360px;
     height: 220px;
     position: absolute;
     top: 0;
     right: 0;
+    overflow: hidden;
+}
+.imgs .img13:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .imgs .img14 img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgs .img14{
+    overflow: hidden;
     width: 360px;
     height: 500px;
     position: absolute;
     top: 396px;
     left: 0;
 }
+.imgs .img14:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .imgs .img15 img{
+    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgs .img15{
+    overflow: hidden;
     width: 360px;
     height: 500px;
     position: absolute;
     left: 386px;
     top: 286px;
 }
+.imgs .img15:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .imgs .img16 img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.imgs .img16{
+    overflow: hidden;
     width: 360px;
     height: 230px;
     position: absolute;
     top: 246px;
     right: 0;
+    
+}
+.imgs .img16:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .imgs .img17 img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgs .img17{
+    overflow: hidden;
     width: 360px;
     height: 230px;
     position: absolute;
     top: 502px;
     right: 0;
 }
+.imgs .img17:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .imgs .img18 img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgs .img18{
+    overflow: hidden;
     width: 360px;
     height: 230px;
     position: absolute;
     left: 386px;
     top: 812px;
 }
+.imgs .img18:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .imgs .img19 img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgs .img19{
+    overflow: hidden;
     width: 360px;
     height: 230px;
     position: absolute;
     top: 758px;
     right: 0;
+}
+.imgs .img19:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
 }
 
 
