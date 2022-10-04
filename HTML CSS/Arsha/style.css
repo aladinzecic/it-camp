@@ -235,6 +235,7 @@ body:hover .right img {
     position: absolute;
     border: 0;
 }
+
 .abt-txt {
     display: flex;
     height: 40vh;
@@ -547,8 +548,152 @@ body:hover .right img {
     position: relative;
     margin-top: 30px;
 }
+.services{
+    background-color: #f3f5fa;
+    height: 75vh;
+    position:relative ;
+}
+.services h1{
+    padding-top: 10vh;
+    color: #37517e;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    text-align: center;
+}
+.line3{
+    position: absolute;
+    margin: auto;
+    width: 120px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    left: 615px;
+    top: 112px;
+    position: absolute;
+    border: 0;
+}
+.services p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+}
+.services .box1{
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+.services .box1 h1{
+    font-size: 1.3rem;
+    font-family: jost;
+    padding-right: 70px;
+    padding-top: 90px;
+}
+#txt1{
+    padding-left: 25px;
+}
+#clock{
+    color: #00aaf8;
+    margin-left: 30px;
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+}
 
+#block{
+    color: #00aaf8;
+    margin-left: 30px;
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+}
+.services .boxes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+}
+#ball{
+    color: #00aaf8;
+    margin-left: 30px;
+    position: absolute;
+    top: 40px;
+}
+#card1{
+    font-size: 30px;
+    color: #00aaf8;
+    margin-left: 30px;
+    position: absolute;
+    top: 40px;
+}
+.boxes .box1:hover{
+    transform: translateY(-10px);
+    transition: 0.4s ease-in-out;
+}
+.boxes .box1:hover h1{
+    color: #00aaf8;
+}
+.action{
+    background-image: url("https://vision-more.com/wp-content/uploads/2021/01/CTA-bg-1.jpg");
+min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 
+opacity: 0.7;
+height: 45vh;
+
+}
+.action .blue{
+    background-color: rgba(1, 1, 77, 0.9);
+    height: 45vh;
+    
+}
+.action .blue .top1 h1{
+    color: #fff;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.action .blue .bot1{
+    display: flex;
+}
+.action .blue .bot1 .left2 p{
+    color: #fff;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+width: 75%;
+padding-left: 100px;
+}
+.action .blue .bot1 .right2 button{
+    padding: 12px 28px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    width: 180px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 130px;
+    
+}
+.portfolio{
+    background-color: #fff;
+    height: 100vh;
+}
 
 
 
