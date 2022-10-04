@@ -752,7 +752,7 @@ padding-left: 100px;
     margin-top: 5vh;
     position: relative;
     width: 84%;
-    height: 100vh;
+    height: 165vh;
     
     display: flex;
 }
@@ -908,6 +908,382 @@ padding-left: 100px;
     transform: scale(1.1);
     transition: 0.5s;
     
+}
+.team {
+    margin-top: 105vh;
+    height: 100vh;
+    background-color: #f3f5fa;
+    width: 100%;
+    position: relative;
+}
+.team .top h1{
+    padding-top: 10vh;
+    color: #37517e;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    text-align: center;
+}
+.team .top p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.team .people {
+    width: 78%;
+    height: 100vh;
+    margin-left: 11%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.team  .people .guy1{
+    width: 515px;
+    background-color: #fff;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 6px;
+    display: flex;
+}
+.team  .people .guy1:hover{
+    transform: translateY(-10px);
+    transition: 2s;
+}
+.team  .people .guy1 .pht1{
+    width: 200px;
+    height: 200px;
+}
+.team  .people .guy1 .pht1 img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.team  .people .guy1 .walter p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+}
+.team .people .guy1 .walter .icons10{
+    display: flex;
+}
+.team .people .guy1 .walter .icons10 .icon10{
+    margin-left: 7px;
+    background-color: #f3f5fa;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.team .people .guy1 .walter .icons10 .icon10:hover{
+    background-color: rgb(91, 91, 211);
+    color: white;
+    transition: 0.4s;
+}
+.team .people .guy1 .walter hr{
+    width: 50px;
+    margin-top: 5px;
+}
+.team .people .guy1 .walter h2{
+    color: #37517e;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    padding-top: 15px;
+}
+.team  .people .guy2{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.team  .people .guy3{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+.team  .people .guy4{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+
+
+
+
+.team  .people .guy2{
+    width: 515px;
+    background-color: #fff;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 6px;
+    display: flex;
+}
+.team  .people .guy2:hover{
+    transform: translateY(-10px);
+    transition: 2s;
+}
+.team  .people .guy2 .pht1{
+    width: 200px;
+    height: 200px;
+}
+.team  .people .guy2 .pht1 img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.team  .people .guy2 .walter p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+}
+.team .people .guy2 .walter .icons10{
+    display: flex;
+}
+.team .people .guy2 .walter .icons10 .icon10{
+    margin-left: 7px;
+    background-color: #f3f5fa;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.team .people .guy2 .walter .icons10 .icon10:hover{
+    background-color: rgb(91, 91, 211);
+    color: white;
+    transition: 0.4s;
+}
+.team .people .guy2 .walter hr{
+    width: 50px;
+    margin-top: 5px;
+}
+.team .people .guy2 .walter h2{
+    color: #37517e;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    padding-top: 15px;
+}
+.team  .people .guy2{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.team  .people .guy3{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+.team  .people .guy4{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+
+
+
+
+.team  .people .guy3{
+    width: 515px;
+    background-color: #fff;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 6px;
+    display: flex;
+}
+.team  .people .guy3:hover{
+    transform: translateY(-10px);
+    transition: 2s;
+}
+.team  .people .guy3 .pht1{
+    width: 200px;
+    height: 200px;
+}
+.team  .people .guy3 .pht1 img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.team  .people .guy3 .walter p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+}
+.team .people .guy3 .walter .icons10{
+    display: flex;
+}
+.team .people .guy3 .walter .icons10 .icon10{
+    margin-left: 7px;
+    background-color: #f3f5fa;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.team .people .guy3 .walter .icons10 .icon10:hover{
+    background-color: rgb(91, 91, 211);
+    color: white;
+    transition: 0.4s;
+}
+.team .people .guy3 .walter hr{
+    width: 50px;
+    margin-top: 5px;
+}
+.team .people .guy3 .walter h2{
+    color: #37517e;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    padding-top: 15px;
+}
+.team  .people .guy3{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.team  .people .guy3{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+.team  .people .guy4{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+
+
+
+
+
+.team  .people .guy4{
+    width: 515px;
+    background-color: #fff;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 6px;
+    display: flex;
+}
+.team  .people .guy4:hover{
+    transform: translateY(-10px);
+    transition: 2s;
+}
+.team  .people .guy4 .pht1{
+    width: 200px;
+    height: 200px;
+}
+.team  .people .guy4 .pht1 img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.team  .people .guy4 .walter p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+}
+.team .people .guy4 .walter .icons10{
+    display: flex;
+}
+.team .people .guy4 .walter .icons10 .icon10{
+    margin-left: 7px;
+    background-color: #f3f5fa;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.team .people .guy4 .walter .icons10 .icon10:hover{
+    background-color: rgb(91, 91, 211);
+    color: white;
+    transition: 0.4s;
+}
+.team .people .guy4 .walter hr{
+    width: 50px;
+    margin-top: 5px;
+}
+.team .people .guy4 .walter h2{
+    color: #37517e;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: jost;
+    padding-top: 15px;
+}
+.team  .people .guy3{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.team  .people .guy3{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
+}
+.team  .people .guy4{
+    width: 515px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -190px;
+    border-radius: 6px;
 }
 
 
