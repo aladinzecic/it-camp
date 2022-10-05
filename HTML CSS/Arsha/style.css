@@ -1543,8 +1543,93 @@ padding: 12px 28px;
 #down:hover{
     color: #00aaf8;
 }
-
-
+.contact{
+    width: 100%;
+    height: 160vh;
+    position: relative;
+}
+.contact .top h1{
+    padding-top: 10vh;
+        color: #37517e;
+        font-size: 32px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family: jost;
+        text-align: center;
+}
+.contact .top p{
+    color: #848484;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.contact .bot .left{
+    height: 90vh;
+    width: 32vw;
+    box-shadow: rgba(197, 188, 188, 0.35) 0px 5px 15px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    border-top:4px solid #00aaf8;
+    border-bottom:4px solid #00aaf8;
+}
+.gray{
+    width: 46px;
+    height: 46px;
+    background-color: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+#location{
+    background-color: #e7f5fb;
+    
+    font-size: 20px;
+    color: #00aaf8;
+    
+}
+.contact .bot .left .location{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5vh;
+}
+.contact .bot .left .location span{
+    font-size: 22px;
+    font-weight: 600;
+    color: #37517e;
+    
+    margin-left: 10px;
+}
+.contact .bot .left .location p{
+    color: #6182ba;
+    margin-left: -80px;
+    font-size: 16px;
+    margin-top: 35px;
+}
+.contact .bot .left .location h4{
+    color: #6182ba;
+    margin-left: -55px;
+    font-size: 16px;
+    margin-top: 35px;
+    font-weight: normal;
+}
+.contact .bot .left .location h3{
+    color: #6182ba;
+    margin-left: -40px;
+    font-size: 16px;
+    margin-top: 35px;
+    font-weight: normal;
+}
+.contact .bot .left iframe{
+    margin-left: 30px;
+    margin-top: 40px;
+}
 
 
 
