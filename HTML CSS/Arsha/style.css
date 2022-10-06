@@ -1715,8 +1715,80 @@ height: 50px;
     background-color: #0177ff;
     transition: 0.4s;
 }
+.newsletter{
+    height: 34vh;
+    background-color: #f3f5fa;
+    width: 100%;
+}
+.newsletter h1{
+    padding-top: 5vh;
+    color: #37517e;
+    font-size: 22px;
+    font-weight: 600;
+    
+    font-family: jost;
+    text-align: center;
+}
+.newsletter p{
+    color: #848484;
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 1.1;
+    font-family: jost;
+    margin-top: px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+#email1{
+    height: 40px;
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 30px;
+    border:  rgb(197, 186, 186) ;
+    border-radius: 5000px;
+}
+.newsletter .bot button{
+    height: 40px;
+    margin-left: -50px;
+    padding: 10px 20px;
+    background-color: #47b2e4;
+    letter-spacing: 1px;
+    border: 1px solid #47b2e4;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.newsletter .bot button:hover{
+    background-color: #0177ff ;
+    transition: 0.4s;
+}
+.footer{
+    display: flex;
 
+}
+.footer .arsha ul{
+    list-style: none;
+}
+.footer .arsha ul li{
+    padding-top: 10px;
+}
+.footer .arsha ul li a{
+    text-decoration: none;
+    color: #5e5e5e;
+    padding-top: 20px;
+    font-size: 14px;
+}
 
+#arsha{
+    color: #37517e;
+    font-size: 28px;
+}
+#us{
+    margin-top: 10px;
+}
 
 @keyframes top-bot{
     0%{
