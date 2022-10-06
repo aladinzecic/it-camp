@@ -1767,27 +1767,38 @@ height: 50px;
 }
 .footer{
     display: flex;
-
+height: 70vh;
+}
+.footer .arsha{
+    margin-top: 40px;
+    margin-left: 60px;
 }
 .footer .arsha ul{
     list-style: none;
+    
 }
 .footer .arsha ul li{
     padding-top: 10px;
 }
-.footer .arsha ul li a{
+
+
+.footer .arsha  ul li a{
     text-decoration: none;
     color: #5e5e5e;
     padding-top: 20px;
     font-size: 14px;
+    
 }
 
 #arsha{
     color: #37517e;
     font-size: 28px;
+    font-weight: 900;
 }
-#us{
-    margin-top: 10px;
+#arrlft{
+    
+    color: #00aaf8;
+    font-size: 18px;
 }
 
 @keyframes top-bot{
