@@ -1568,6 +1568,9 @@ padding: 12px 28px;
     margin-left: 10%;
     text-align: center;
 }
+.contact .bot{
+    display: flex;
+}
 .contact .bot .left{
     height: 90vh;
     width: 32vw;
@@ -1629,6 +1632,55 @@ padding: 12px 28px;
 .contact .bot .left iframe{
     margin-left: 30px;
     margin-top: 40px;
+}
+.contact .bot .right{
+    height: 90vh;
+    width: 45vw;
+    box-shadow: rgba(197, 188, 188, 0.35) 0px 5px 15px;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    border-top:4px solid #00aaf8;
+    border-bottom:4px solid #00aaf8;
+    padding-top: 25px;
+}
+.contact .bot .right span{
+    color: #999;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#span1{
+    margin-left: 200px;
+}
+#username{
+    height: 45px;
+    width: 44%;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid rgb(197, 186, 186) ;
+    border-radius: 5px;
+}
+#email{
+    height: 45px;
+    width: 44%;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(197, 186, 186) ;
+    border-radius: 5px;
+}
+.contact .bot .right p{
+    color: #999;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#text{
+    height: 45px;
+    width: 92%;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid rgb(197, 186, 186) ;
+    border-radius: 5px;
 }
 
 
