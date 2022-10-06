@@ -1545,7 +1545,7 @@ padding: 12px 28px;
 }
 .contact{
     width: 100%;
-    height: 160vh;
+    height: 140vh;
     position: relative;
 }
 .contact .top h1{
@@ -1572,7 +1572,7 @@ padding: 12px 28px;
     display: flex;
 }
 .contact .bot .left{
-    height: 90vh;
+    height: 96vh;
     width: 32vw;
     box-shadow: rgba(197, 188, 188, 0.35) 0px 5px 15px;
     margin-left: 10vw;
@@ -1631,10 +1631,10 @@ padding: 12px 28px;
 }
 .contact .bot .left iframe{
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .contact .bot .right{
-    height: 90vh;
+    height: 96vh;
     width: 45vw;
     box-shadow: rgba(197, 188, 188, 0.35) 0px 5px 15px;
     margin-left: 2vw;
@@ -1674,13 +1674,46 @@ padding: 12px 28px;
     margin-top: 50px;
     font-size: 20px;
 }
+.contact .bot .right h3{
+    color: #999;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+}
 #text{
     height: 45px;
     width: 92%;
     margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
     border: 1px solid rgb(197, 186, 186) ;
     border-radius: 5px;
+}
+#note{
+    height: 250px;
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 92%;
+    border: 1px solid rgb(197, 186, 186) ;
+    border-radius: 5px;
+}
+.contact .right button{
+height: 50px;
+    margin-top: 20px;
+    margin-left: 35%;
+    padding: 12px 28px;
+    background-color: #47b2e4;
+    letter-spacing: 1px;
+    border: 1px solid #47b2e4;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.contact .right button:hover{
+    background-color: #0177ff;
+    transition: 0.4s;
 }
 
 
