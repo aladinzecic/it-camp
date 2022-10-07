@@ -251,7 +251,7 @@ body:hover .right img {
     line-height: 1.3;
     font-family: jost;
 }
-#check{
+#check123{
     font-size: 20px;
     
     color: #00aaf8;
@@ -743,6 +743,7 @@ padding-left: 100px;
 .portfolio .buttons button:hover{
     background-color: #00aaf8;
     border: 1px solid #00aaf8;
+    transition: 0.1s;
 }
 #frstbtn{
     background-color: #00aaf8;
