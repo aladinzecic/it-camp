@@ -1853,7 +1853,7 @@ height: 50vh;
 .div12{
     display: flex;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .circle12{
     display: flex;
@@ -1872,6 +1872,13 @@ height: 50vh;
 #icon123{
     font-size: 20px;
     color: #fff;
+}
+.end{
+    height: 12vh;
+    background-color: #142e5a ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 @keyframes top-bot{
     0%{
