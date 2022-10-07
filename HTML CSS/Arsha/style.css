@@ -1895,6 +1895,9 @@ height: 50vh;
     font-family: jost;
 }
 .up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -1902,8 +1905,12 @@ height: 50vh;
     height: 40px;
     background-color: #00aaf8;
     border-radius: 50%;
-    text-align: center;
     
+    
+}
+
+#up{
+    color: #fff;
 }
 @keyframes top-bot{
     0%{
