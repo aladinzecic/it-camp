@@ -1788,18 +1788,20 @@ height: 50vh;
     color: #5e5e5e;
     padding-top: 20px;
     font-size: 14px;
-    
+    cursor: default;
 }
 
 #arsha{
     color: #37517e;
     font-size: 28px;
     font-weight: 900;
+    cursor: default;
 }
 #arsha1{
     color: #37517e;
     font-size: 20px;
     font-weight: 900;
+    cursor: default;
 }
 #arrlft{
     
@@ -1818,6 +1820,7 @@ height: 50vh;
 .arsha1 p{
     color: #5e5e5e;
     font-size: 16px;
+    cursor: default;
 }
 .footer .arsha1 ul li{
     padding-top: 10px;
@@ -1835,6 +1838,9 @@ height: 50vh;
     font-size: 17px;
     
 }
+.footer .arsha1  ul li a:hover{
+    color: #00aaf8;
+}
 
 #right2{
     font-size: 20px;
@@ -1842,8 +1848,31 @@ height: 50vh;
     position: relative;
     top: 3px;
     
+    
 }
-
+.div12{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.circle12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00aaf8;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.circle12:hover{
+    background-color: #0177ff;
+}
+#icon123{
+    font-size: 20px;
+    color: #fff;
+}
 @keyframes top-bot{
     0%{
         transform: translateY(0px);
