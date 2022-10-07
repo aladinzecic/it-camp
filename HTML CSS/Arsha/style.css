@@ -1767,9 +1767,10 @@ height: 50px;
 }
 .footer{
     display: flex;
-height: 70vh;
+height: 50vh;
 }
 .footer .arsha{
+    width: 25%;
     margin-top: 40px;
     margin-left: 60px;
 }
@@ -1795,10 +1796,52 @@ height: 70vh;
     font-size: 28px;
     font-weight: 900;
 }
+#arsha1{
+    color: #37517e;
+    font-size: 20px;
+    font-weight: 900;
+}
 #arrlft{
     
     color: #00aaf8;
     font-size: 18px;
+}
+.footer .arsha1{
+    width: 25%;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.footer .arsha1 ul{
+    list-style: none;
+    
+}
+.arsha1 p{
+    color: #5e5e5e;
+    font-size: 16px;
+}
+.footer .arsha1 ul li{
+    padding-top: 10px;
+}
+.footer .arsha1 .div1{
+    display: flex;
+    align-items: center;
+}
+
+
+.footer .arsha1  ul li a{
+    text-decoration: none;
+    color: #5e5e5e;
+    vertical-align: middle;
+    font-size: 17px;
+    
+}
+
+#right2{
+    font-size: 20px;
+    color: #00aaf8;
+    position: relative;
+    top: 3px;
+    
 }
 
 @keyframes top-bot{
