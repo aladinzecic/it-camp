@@ -1879,6 +1879,31 @@ height: 50vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+}
+.end .left p{
+    color: #fff;
+    font-family: jost;
+}
+.end .right p{
+    color: #fff;
+    font-family: jost;
+}
+.end .right a{
+    color: #0177ff ;
+    text-decoration: none;
+    font-family: jost;
+}
+.up{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #00aaf8;
+    border-radius: 50%;
+    text-align: center;
+    
 }
 @keyframes top-bot{
     0%{
