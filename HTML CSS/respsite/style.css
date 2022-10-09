@@ -1,4 +1,68 @@
-*{
+
+:root {
+    --color-1: #80deea;
+    --color-2: #ffab91;
+    --color-3: #8cdbbf;
+    --color-4: #b4d195;
+  /*   --color-1: #0d48a0;
+    --color-2: #643791;
+    --color-3: #8b1c76;
+    --color-4: #a00053; */
+  }
+  
+  * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
+  }
+  
+  html {
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  
+  .background-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding: 5rem;
+    height: 100%;
+    
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(var(--color-1) 25%, transparent 50%),
+      radial-gradient(var(--color-2) 25%, transparent 50%),
+      radial-gradient(var(--color-3) 25%, transparent 50%),
+      radial-gradient(var(--color-4) 25%, transparent 50%);
+    background-size: 60% 80%, 70% 80%, 80% 80%, 80% 80%;
+    background-position: 0 0, 0 100%, 50% 0, 50% 100%;
+    background-repeat: no-repeat;
+  
+    
+    transform: scale(4);
+   
+    overflow: hidden;
+  }
+  
+  h1 {
+  }
+  
