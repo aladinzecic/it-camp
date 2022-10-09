@@ -1924,3 +1924,6 @@ height: 50vh;
         transform: translateY(0px)
     }
 }
+a{
+    width: 100%;
+}
