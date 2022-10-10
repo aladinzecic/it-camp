@@ -2003,6 +2003,11 @@ height: 50vh;
         border-bottom:4px solid #00aaf8;
         padding-top: 25px;
     }
+    .newsletter{
+        height: 30vh;
+        background-color: #f3f5fa;
+        width: 100%;
+    }
     .footer{
         display: flex;
     height: 30vh;
