@@ -1927,7 +1927,7 @@ height: 50vh;
         transform: translateY(0px)
     }
 }
-@media (max-width:1441px) and ( min-width:1321px){
+@media (max-width:1441px) and ( min-width:1051px){
     .aboutus{
         height: 20vh;
         
@@ -2093,31 +2093,46 @@ height: 50vh;
 
 
 
-@media (max-width:1320px) and ( min-width:1000px){
+@media (max-width:1050px) and ( min-width:1000px){
+    
     .aboutus{
         height: 20vh;
         
     }
+    .navbar {
+        width: 99%;
+    }
     .navbar .logo h1{
-        font-size: 40px;
+        font-size: 32px;
+        margin-left: 20%;
+    }
+    .main{
+        width: 100%;
     }
     .navbar .menu ul li a{
         text-decoration: none;
         font-size: 22px;
         font-weight: 500;
-        padding-right: 30px;
+        padding-right: 2vw;
         color: #fff;
         cursor: pointer;
         
+    }
+    .sponsor{
+        width: 100%;
     }
     .sponsor img{
         width: 100px;
         filter: grayscale(100);
         cursor: pointer;
     }
+    .aboutus{
+        width: 100%;
+    }
     .abt-txt {
         display: flex;
         height: 28vh;
+        width: 100%;
     }
     .abt-txt .left p,span{
         font-size: 1.4rem;
@@ -2142,7 +2157,7 @@ height: 50vh;
         cursor: pointer;
     }
     .hero{
-        
+        width: 100%;
         height: 70vh;
         
     }
@@ -2157,7 +2172,7 @@ height: 50vh;
     }
     .services{
         height: 55vh;
-        
+        width: 100%;
     }
     .action{
     height: 45vh;
