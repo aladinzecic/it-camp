@@ -950,7 +950,7 @@ padding-left: 100px;
 }
 
 .team  .people .guy1{
-    width: 515px;
+    width: 46%;
     background-color: #fff;
     height: 200px;
     margin-top: 30px;
@@ -1016,7 +1016,7 @@ padding-left: 100px;
 
 
 .team  .people .guy2{
-    width: 515px;
+    width: 46%;
     background-color: #fff;
     height: 200px;
     margin-top: 30px;
@@ -1083,9 +1083,10 @@ padding-left: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
+    margin-top: -5%;
 }
 .team  .people1 .guy3{
-    width: 515px;
+    width: 46%;
     background-color: #fff;
     height: 200px;
     margin-top: 55px;
@@ -1148,7 +1149,7 @@ padding-left: 100px;
 
 
 .team  .people1 .guy4{
-    width: 515px;
+    width: 46%;
     background-color: #fff;
     height: 200px;
     margin-top: 55px;
@@ -1926,14 +1927,53 @@ height: 50vh;
         transform: translateY(0px)
     }
 }
-@media (max-width:1441px) and ( min-width:1000px){
+@media (max-width:1441px) and ( min-width:1321px){
     .aboutus{
         height: 20vh;
         
     }
+    .navbar .logo h1{
+        font-size: 40px;
+    }
+    .navbar .menu ul li a{
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 500;
+        padding-right: 30px;
+        color: #fff;
+        cursor: pointer;
+        
+    }
+    .sponsor img{
+        width: 100px;
+        filter: grayscale(100);
+        cursor: pointer;
+    }
     .abt-txt {
         display: flex;
         height: 28vh;
+    }
+    .abt-txt .left p,span{
+        font-size: 1.4rem;
+    }
+    .abt-txt .right p{
+        font-size: 1.4rem;
+        color: #343a40;
+        line-height: 1.3;
+        font-family: jost;
+        padding-right: 110px;
+    }
+    .abt-txt .right button{
+        background-color: transparent;
+        border: 2px solid #00aaf8;
+        padding: 10px 40px;
+        border-radius: 5px;
+        font-family: jost;
+        color: #00aaf8;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 30px;
+        cursor: pointer;
     }
     .hero{
         
@@ -1951,6 +1991,43 @@ height: 50vh;
     }
     .services{
         height: 55vh;
+        
+    }
+    .action{
+    height: 45vh;
+    
+    }
+    .action .blue .top1 h1{
+        color: #fff;
+        padding-left: 8%;
+        padding-top: 8%;
+        font-size: 34px;
+    }
+    
+    .action .blue .bot1 .left2 p{
+        color: #fff;
+        font-size: 24px;
+        word-spacing: 1px;
+        line-height: 1.1;
+        font-family: jost;
+    width: 75%;
+    padding-left: 100px;
+    margin-top: 40px;
+    }
+    .action .blue .bot1 .right2 button{
+        padding: 16px 28px;
+        background-color: transparent;
+        letter-spacing: 1px;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 50px;
+        width: 15vw;
+        height: 5vw;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 8vw;
+        margin-top: 10%;
         
     }
     .team {
@@ -2012,4 +2089,171 @@ height: 50vh;
         display: flex;
     height: 30vh;
     }
+}
+
+
+
+@media (max-width:1320px) and ( min-width:1000px){
+    .aboutus{
+        height: 20vh;
+        
+    }
+    .navbar .logo h1{
+        font-size: 40px;
+    }
+    .navbar .menu ul li a{
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 500;
+        padding-right: 30px;
+        color: #fff;
+        cursor: pointer;
+        
+    }
+    .sponsor img{
+        width: 100px;
+        filter: grayscale(100);
+        cursor: pointer;
+    }
+    .abt-txt {
+        display: flex;
+        height: 28vh;
+    }
+    .abt-txt .left p,span{
+        font-size: 1.4rem;
+    }
+    .abt-txt .right p{
+        font-size: 1.4rem;
+        color: #343a40;
+        line-height: 1.3;
+        font-family: jost;
+        padding-right: 110px;
+    }
+    .abt-txt .right button{
+        background-color: transparent;
+        border: 2px solid #00aaf8;
+        padding: 10px 40px;
+        border-radius: 5px;
+        font-family: jost;
+        color: #00aaf8;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .hero{
+        
+        height: 70vh;
+        
+    }
+    .hero .right1 img{
+        height: 70%;
+        
+        margin-left: 5%;
+    }
+    .skills{
+        height: 55vh;
+        
+    }
+    .services{
+        height: 55vh;
+        
+    }
+    .action{
+    height: 45vh;
+    
+    }
+    .action .blue .top1 h1{
+        color: #fff;
+        padding-left: 8%;
+        padding-top: 8%;
+        font-size: 34px;
+    }
+    
+    .action .blue .bot1 .left2 p{
+        color: #fff;
+        font-size: 24px;
+        word-spacing: 1px;
+        line-height: 1.1;
+        font-family: jost;
+    width: 75%;
+    padding-left: 100px;
+    margin-top: 40px;
+    }
+    .action .blue .bot1 .right2 button{
+        padding: 16px 28px;
+        background-color: transparent;
+        letter-spacing: 1px;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 50px;
+        width: 15vw;
+        height: 5vw;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 8vw;
+        margin-top: 10%;
+        
+    }
+    .team {
+        margin-top: 45vh;
+        height: 40vh;
+        background-color: #f3f5fa;
+        width: 100%;
+        position: relative;
+    }
+    .team {
+        margin-top: 45vh;
+        height: 85vh;
+        background-color: #f3f5fa;
+        width: 100%;
+        position: relative;
+    }
+    .pricing{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .questions{
+        width: 100%;
+        height: 92vh;
+        background-color: #f3f5fa;
+        position: relative;
+    
+    }
+    .contact{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .contact .bot .left{
+        height: 48vw;
+        width: 32vw;
+        box-shadow: rgba(197, 188, 188, 0.35) 0px 5px 15px;
+        margin-left: 10vw;
+        margin-top: 5vh;
+        border-top:4px solid #00aaf8;
+        border-bottom:4px solid #00aaf8;
+    }
+    .contact .bot .right{
+        height: 48vw;
+        width: 45vw;
+        box-shadow: rgba(197, 188, 188, 0.35) 0px 5px 15px;
+        margin-left: 2vw;
+        margin-top: 5vh;
+        border-top:4px solid #00aaf8;
+        border-bottom:4px solid #00aaf8;
+        padding-top: 25px;
+    }
+    .newsletter{
+        height: 30vh;
+        background-color: #f3f5fa;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+    height: 30vh;
+    }
+   
 }
