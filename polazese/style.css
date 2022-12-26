@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .left {
+  height: 10vh;
+  display: flex;
+}
+.nav .left ul {
+  height: 8;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav .left ul li {
+  margin-left: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav .left ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+.nav .left ul li:hover {
+  background-color: blue;
+  color: #fff;
+  height: 100%;
+}
+.nav .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav .right input {
+  padding: 4px 2px;
+}
+.nav .right button {
+  padding: 4px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#prva {
+  background-color: blue;
+}
+.dole {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
