@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  height: 500px;
+}
+
+.div {
+  width: 100%;
+  background-color: rgb(111, 125, 204);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+.div h1 a {
+  margin-left: 1rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.el {
+  height: 7vh;
+  background-color: rgb(95, 103, 209);
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+.el a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.middle {
+  margin-top: 2rem;
+}
+.middle iframe {
+  margin-top: 1rem;
+}
+.middle p {
+  text-align: justify;
+}
+.last {
+  margin-top: 1.8vh;
+  height: 60vh;
+  background-color: rgb(95, 103, 209);
+}
+.img {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+}
+.img img {
+  width: 80%;
+}
+.last {
+  text-align: center;
+  color: #fff;
+}
+.last h1 {
+  font-size: 2rem;
+}
+
+.div1 {
+  width: 100%;
+  background-color: rgb(111, 125, 204);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+}
+.div1 h1 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.middle1 {
+  margin-top: 5vh;
+}
+.middle1 button {
+  margin-top: 10px;
+}
+.middle1 p {
+  margin-top: 5px;
+  text-align: end;
+}
+.middle2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.middle2 .card {
+  margin-left: 2px;
+}
+@media only screen and (max-width: 767px) {
+  .el {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .middle2 {
+    justify-content: center;
+  }
+  .middle2 .card {
+    margin-top: 10px;
+  }
+}
